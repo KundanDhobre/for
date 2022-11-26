@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Inter document links</title>
+        <style>
+            .container {
+                display: grid;
+                grid-template-columns: 4fr 8fr;
+            }
+            iframe {
+                width: 100%;
+                height: 400px;
+                border:none;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <ol>
+                    <li><a href="http://www.amazon.in">Amazon Shopping</a></li>
+                    <li><a href="amazon.html" target="_blank">Amazon Card Example</a></li>
+                    <li><a  href="../public/assets/speaker.jpg" target="frameBody">Sony Speaker</a></li>
+                    <li><a href="./assets/tutorial.docx">Database Diagrams - Word Document</a></li>
+                    <li><a href="./assets/tutorial.pdf" target="frameBody">CSS Tutorial - PDF</a></li>
+                    <li> Email us : <a href="hr@nareshit.in">hr@nareshit.in</a></li>
+                    <li>Skype us : <a href="skype:manager@outlook.com">manager@outlook.com</a> </li>
+                    <li>Call us : <a href="tel:+919876543210">+919876543210</a></li>
+                    <li><a href="javascript:alert('Hello Your Ticket will Print')">Print Ticket</a></li>
+                    <li><a href="https://www.youtube.com/embed/J5nqY3AfvIw&quot; target="frameBody">Online Youtube Tutorial</a></li>
+                    <li><a href="https://www.youtube.com/embed/eVk71kYJUvI&t=3642s&quot; target="frameBody">AWS Demo Video</a></li>
+                </ol>
+            </div>
+            <div>
+                <iframe src="https://www.youtube.com/embed/J5nqY3AfvIw&quot; name="frameBody"></iframe>
+                <br>
+                <iframe src="//www.slideshare.net/slideshow/embed_code/key/lilaBV30CMombS&quot; width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/NandakumarGanapathy/html-49983100&quot; title="Html" target="_blank">Html</a> </strong> from <strong><a href="//www.slideshare.net/NandakumarGanapathy&quot; target="_blank">Nandakumar Ganapathy</a></strong> </div>
+            </div>
+        </div>
+    </body>
+</html>
